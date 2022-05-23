@@ -1,0 +1,35 @@
+l1.insert[2]=0
+
+
+def sum(x,y):
+
+ 	sum=x+y;
+	return sum;
+
+sum(2,3)
+
+sum(10)
+
+t1=(2,4,5)
+t1=(5,7,8)
+
+
+WITH CTE
+AS
+(
+SELECT *,DENCE_RANK() OVER(ORDER BY Salary DESC) RNK
+FROM B
+)
+SELECT * 
+FROM CTE 
+WHERE RNK=3
+
+
+System Name	DESKTOP-RLEG2HJ
+
+VZnF&48WKZ
+
+AMCAT test
+115471425601813
+
+101353229373
